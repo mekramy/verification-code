@@ -1,0 +1,40 @@
+{
+    "name": "mekramy/verification-code",
+    "description": "easy verification code using cache for laravel",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "verification code"
+    ],
+    "authors": [
+        {
+            "email": "m.ajamekramy@gmail.com",
+            "homepage": "http://ekramy.ir",
+            "name": "M Ekramy",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "ext-json": "*",
+        "illuminate/http": ">=7.0",
+        "illuminate/cache": ">=7.0",
+        "illuminate/support": ">=7.0",
+        "illuminate/encryption": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MEkramy\\VerificationCode\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
