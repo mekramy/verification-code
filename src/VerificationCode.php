@@ -77,7 +77,7 @@ class VerificationCode
      */
     public function get(string $key, bool $global = true): ?string
     {
-        return $this->cache->has($this->key($key, $global)) ? decrypt($this->cache->get($this->key($key))) : null;
+        return $this->cache->has($this->key($key, $global)) ? decrypt($this->cache->get($this->key($key, $global))) : null;
     }
 
     /**
